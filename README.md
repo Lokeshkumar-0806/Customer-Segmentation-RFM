@@ -49,6 +49,18 @@ Insights**
 
 ------------------------------------------------------------------------
 
+## Run the analysis
+
+1. Clone or download this repository.
+2. Install the main Python dependencies: `pandas`, `numpy`, `matplotlib`, and `seaborn`. Install Jupyter Notebook to run the notebook.
+3. Keep `RFM_Analysis.ipynb` and `Online Retail.csv.zip` in the repository root. The notebook reads the CSV directly from the ZIP archive; no separate `data/` directory is required for that step.
+4. Run the notebook cells from top to bottom. Review the generated customer-level RFM output and segment-level insights.
+5. Open `RFM Analysis.pbix` in Power BI Desktop to explore the dashboard. The exported CSV files are provided as analysis outputs.
+
+The Gemini insight-generation step requires a valid Google Gemini API key. Do not commit API keys or other credentials to the repository. If you do not have a key configured, you can still review the existing `genai_customer_insights.csv` output.
+
+---
+
 # 📊 Dataset
 
 The project uses the **Online Retail Transactions Dataset**, containing
